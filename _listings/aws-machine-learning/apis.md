@@ -36,7 +36,7 @@ apis:
   tags: Evaluations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/evaluations/master/_listings/aws-machine-learning/action-deleteevaluation-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/evaluations/master/_listings/aws-machine-learning/action-describeevaluations-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
