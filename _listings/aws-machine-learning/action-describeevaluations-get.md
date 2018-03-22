@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEvaluations&k=1:
+  /?Action=DescribeEvaluations:
     get:
       summary: ' Describe Evaluations '
       description: Returns a list of DescribeEvaluations that match the search criteria
