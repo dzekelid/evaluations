@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateEvaluation&k=1:
+  /?Action=CreateEvaluation:
     get:
       summary: ' Create Evaluation '
       description: Creates a new Evaluation of an MLModel
