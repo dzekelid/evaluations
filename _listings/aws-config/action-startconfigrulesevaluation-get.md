@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartConfigRulesEvaluation&k=1:
+  /?Action=StartConfigRulesEvaluation:
     get:
       summary: ' Start Config Rules Evaluation '
       description: Runs an on-demand evaluation for the specified Config rules against
