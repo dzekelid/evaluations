@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteEvaluationResults&k=1:
+  /?Action=DeleteEvaluationResults:
     get:
       summary: ' Delete Evaluation Results '
       description: Deletes the evaluation results for the specified Config rule
