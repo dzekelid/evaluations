@@ -19,9 +19,9 @@ tags:
 - Authentication
 - Applications
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/evaluations/master/_listings/aws-config/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-config/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Config API
@@ -34,7 +34,7 @@ apis:
   tags: Evaluations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/evaluations/master/_listings/aws-config/action-startconfigrulesevaluation-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-config/action-deleteevaluationresults-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
