@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateEvaluation&k=1:
+  /?Action=UpdateEvaluation:
     get:
       summary: ' Update Evaluation '
       description: Updates the EvaluationName of an Evaluation
