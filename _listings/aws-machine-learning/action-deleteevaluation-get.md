@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteEvaluation&k=1:
+  /?Action=DeleteEvaluation:
     get:
       summary: ' Delete Evaluation '
       description: Assigns the DELETED status to an Evaluation, rendering it unusable
