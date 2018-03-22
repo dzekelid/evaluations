@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetEvaluation&k=1:
+  /?Action=GetEvaluation:
     get:
       summary: ' Get Evaluation '
       description: Returns an Evaluation that includes metadata as well as the current
