@@ -34,7 +34,7 @@ apis:
   tags: Evaluations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-config/action-putevaluations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-config/action-startconfigrulesevaluation-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
