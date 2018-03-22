@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutEvaluations&k=1:
+  /?Action=PutEvaluations:
     get:
       summary: ' Put Evaluations '
       description: Used by an AWS Lambda function to deliver evaluation results to
