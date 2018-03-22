@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeConfigRuleEvaluationStatus&k=1:
+  /?Action=DescribeConfigRuleEvaluationStatus:
     get:
       summary: ' Describe Config Rule Evaluation Status '
       description: Returns status information for each of your AWS managed Config
