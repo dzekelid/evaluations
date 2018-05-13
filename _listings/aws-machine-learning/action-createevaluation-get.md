@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Create Evaluation
   version: 1.0.0
+  description: Creates a new Evaluation of an MLModel.
 schemes:
 - http
 produces:
