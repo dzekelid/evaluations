@@ -37,7 +37,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/action-updateevaluation-get.md
+- name: AWS Machine Learning API Create Evaluation
+  description: Creates a new Evaluation of an MLModel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: http:://{host}//
+  tags: Evaluations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/action-createevaluation-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://aws.amazon.com/cli/
+- type: x-console
+  url: https://console.aws.amazon.com/machinelearning
+- type: x-documentation
+  url: http://docs.aws.amazon.com/machine-learning/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/machine-learning/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/machine-learning/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/machine-learning/pricing/
+- type: x-tools
+  url: http://aws.amazon.com/developertools/
+- type: x-website
+  url: https://aws.amazon.com/machine-learning/
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
 - type: x-console
