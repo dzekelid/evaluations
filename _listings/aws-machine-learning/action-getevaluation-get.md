@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Get Evaluation
   version: 1.0.0
+  description: Returns an Evaluation that includes metadata as well as the current
+    status of the Evaluation.
 schemes:
 - http
 produces:
