@@ -37,16 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/action-updateevaluation-get.md
-- name: AWS Machine Learning API Get Evaluation
-  description: Returns an Evaluation that includes metadata as well as the current
-    status of the Evaluation.
+- name: AWS Machine Learning API Update Evaluation
+  description: Updates the EvaluationName of an Evaluation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: http:://{host}//
   tags: Evaluations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/action-getevaluation-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/action-updateevaluation-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
