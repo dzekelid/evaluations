@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Describe Config Rule Evaluation Status
   version: 1.0.0
+  description: Returns status information for each of your AWS managed Config rules.
 schemes:
 - http
 produces:
