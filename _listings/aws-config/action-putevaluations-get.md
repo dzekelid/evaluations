@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Put Evaluations
   version: 1.0.0
+  description: Used by an AWS Lambda function to deliver evaluation results to AWS
+    Config.
 schemes:
 - http
 produces:
