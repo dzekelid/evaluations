@@ -35,16 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-config/action-startconfigrulesevaluation-get.md
-- name: AWS Config API Put Evaluations
-  description: Used by an AWS Lambda function to deliver evaluation results to AWS
-    Config.
+- name: AWS Config API Start Config Rules Evaluation
+  description: Runs an on-demand evaluation for the specified Config rules against
+    the last known configuration state of the resources.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
   humanURL: https://aws.amazon.com/config/
   baseURL: http:://{host}//
   tags: Evaluations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-config/action-putevaluations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-config/action-startconfigrulesevaluation-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
