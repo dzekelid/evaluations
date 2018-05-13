@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Start Config Rules Evaluation
   version: 1.0.0
+  description: Runs an on-demand evaluation for the specified Config rules against
+    the last known configuration state of the resources.
 schemes:
 - http
 produces:
