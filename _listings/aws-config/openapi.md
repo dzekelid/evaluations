@@ -1,0 +1,99 @@
+---
+swagger: "2.0"
+x-collection-name: AWS Config
+x-complete: 1
+info:
+  title: AWS Config API
+  version: 1.0.0
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /?Action=DeleteEvaluationResults:
+    get:
+      summary: Delete Evaluation Results
+      description: Deletes the evaluation results for the specified Config rule.
+      operationId: deleteEvaluationResults
+      x-api-path-slug: actiondeleteevaluationresults-get
+      parameters:
+      - in: query
+        name: ConfigRuleName
+        description: The name of the Config rule for which you want to delete the
+          evaluation results
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Evaluations
+  /?Action=DescribeConfigRuleEvaluationStatus:
+    get:
+      summary: Describe Config Rule Evaluation Status
+      description: Returns status information for each of your AWS managed Config
+        rules.
+      operationId: describeConfigRuleEvaluationStatus
+      x-api-path-slug: actiondescribeconfigruleevaluationstatus-get
+      parameters:
+      - in: query
+        name: ConfigRuleNames
+        description: The name of the AWS managed Config rules for which you want status
+          information
+        type: string
+      - in: query
+        name: Limit
+        description: The number of rule evaluation results that you want returned
+        type: string
+      - in: query
+        name: NextToken
+        description: The NextToken string returned on a previous page that you use
+          to get the next page of results in a paginated response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Evaluations
+  /?Action=PutEvaluations:
+    get:
+      summary: Put Evaluations
+      description: Used by an AWS Lambda function to deliver evaluation results to
+        AWS Config.
+      operationId: putEvaluations
+      x-api-path-slug: actionputevaluations-get
+      parameters:
+      - in: query
+        name: Evaluations
+        description: The assessments that the AWS Lambda function performs
+        type: string
+      - in: query
+        name: ResultToken
+        description: An encrypted token that associates an evaluation with an AWS
+          Config rule
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Evaluations
+  /?Action=StartConfigRulesEvaluation:
+    get:
+      summary: Start Config Rules Evaluation
+      description: Runs an on-demand evaluation for the specified Config rules against
+        the last known configuration state of the resources.
+      operationId: startConfigRulesEvaluation
+      x-api-path-slug: actionstartconfigrulesevaluation-get
+      parameters:
+      - in: query
+        name: ConfigRuleNames
+        description: The list of names of Config rules that you want to run evaluations
+          for
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Evaluations
+---
