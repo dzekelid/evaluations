@@ -40,6 +40,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=DeleteEvaluation:
     get:
@@ -57,6 +58,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
 x-streamrank:
   polling_total_time_average: 0

@@ -39,6 +39,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=DeleteEvaluation:
     get:
@@ -56,6 +57,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=DescribeEvaluations:
     get:
@@ -116,6 +118,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=GetEvaluation:
     get:
@@ -133,6 +136,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=UpdateEvaluation:
     get:
@@ -154,5 +158,6 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
 ---

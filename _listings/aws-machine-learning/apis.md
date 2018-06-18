@@ -18,10 +18,10 @@ description: Amazon Machine Learning is a service that makes it easy for develop
   go, so you can start small and scale as your application grows.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Evaluations
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/apis.md
 specificationVersion: "0.14"
 apis:
@@ -31,7 +31,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateEvaluation
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/actioncreateevaluation-get-openapi.md
@@ -41,7 +41,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DeleteEvaluation
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/actiondeleteevaluation-get-openapi.md
@@ -52,7 +52,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DescribeEvaluations
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/actiondescribeevaluations-get-openapi.md
@@ -63,7 +63,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=GetEvaluation
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/actiongetevaluation-get-openapi.md
@@ -73,7 +73,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=UpdateEvaluation
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/evaluations/master/_listings/aws-machine-learning/actionupdateevaluation-get-openapi.md
